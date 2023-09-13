@@ -1,0 +1,90 @@
+/*  Header content */ 
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo  {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    padding: 10px;
+}
+
+header {
+    background-color: black;
+}
+
+/* Main content */ 
+.heroImg {
+  height: 600px;
+  padding: 25px;
+  background-color: black;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+
+/*  Text Styles */ 
+.body-text {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+
+h1 {
+  font-size: 60px;
+}
+
+
+/* UI Elements */
+.button {
+  display: inline-block;
+  padding: 15px;
+  margin: 20px 0px;
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.primary {
+ background-color: #dfff84;
+}
+
+
+
+
+/*  Footer Styles */ 
+footer {
+    background-color: black;
+  }
+
+li.footer {
+  float: right;
+  margin: 10px;
+}
+
+ul.ul-style {
+  margin-right: 227px;
+}
+
+/*  Note to TA, followed the instructions in the first part with setting up the header, but then pulled in some float in the footer. Eventually could go back and use a float in the header to make them consistent. */
