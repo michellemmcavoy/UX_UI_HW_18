@@ -47,12 +47,53 @@ header {
 .body-text {
     display: flex;
     font-family: "Montserrat", sans-serif;
-    color: white;
   }
 
 h1 {
   font-size: 60px;
 }
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.heading {
+  padding: 20px 160px;
+}
+
+
+
+/* My UX Skills section coded using CSS flex */
+.flexContainer {
+  display: flex;
+  padding: 5px 160px;
+  flex-direction: row;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 5px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* UI Elements */
