@@ -55,7 +55,14 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-weight: bolder;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 .white {
@@ -64,6 +71,10 @@ h2 {
 
 .black {
   color: black;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 .heading {
@@ -75,7 +86,7 @@ h2 {
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
   display: flex;
-  padding: 5px 160px;
+  padding: 5px 130px;
   flex-direction: row;
 }
 .flexContainer div {
@@ -84,13 +95,37 @@ h2 {
 }
 
 
+/* My Work section */
 
+.myWork {
+  padding: 20px 160px;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 400px 400px;
+  grid-template-areas: 'img1 project1' 'img2 project2';
+}
+.workGrid img {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
 
-
-
-
-
-
+.project1 {
+  grid-area: project1;
+  padding: 50px;
+}
+.project2 {
+  grid-area: project2;
+  padding: 50px;
+}
 
 
 
