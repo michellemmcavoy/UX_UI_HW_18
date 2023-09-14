@@ -130,6 +130,56 @@ h4 {
 
 
 
+/* Media Query */
+@media only screen and (max-width: 600px) {
+
+  .heading {
+    padding: 20px 30px;
+  }
+
+  .flexContainer {
+    display: flex;
+    padding: 5px 10px;
+    flex-direction: column;
+  }
+  .flexContainer div {
+    width: 100%;
+    padding: 5px 20px;
+  }
+
+
+  .myWork {
+    padding: 20px 30px;
+  }
+  .workGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 'img1' 'project1' 'img2' 'project2';
+  }
+  .workGrid img {
+    max-width: 500px;
+    display: block;
+  }
+  
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  
+  .project1 {
+    grid-area: project1;
+    padding: 5px;
+  }
+  .project2 {
+    grid-area: project2;
+    padding: 5px;
+  }
+
+}
+
+
 
 
 /* UI Elements */
