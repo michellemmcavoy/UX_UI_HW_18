@@ -108,9 +108,10 @@ h4 {
 }
 .workGrid img {
   max-width: 500px;
-  margin: 0 auto;
   display: block;
 }
+
+
 .img1 {
   grid-area: img1;
 }
